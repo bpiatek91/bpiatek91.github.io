@@ -34,3 +34,45 @@
 h3{
     color:white; 
 }
+.column {
+    float: left;
+    width: 20%;
+    position: relative;
+  }
+.column2 {
+    float: right;
+    width: 40%; 
+    position: relative; 
+}
+
+.container{
+    margin: 8px;
+    margin-top: 10px;
+    min-height: 70%;
+    background: rgb(98, 125, 245)
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+    color: white;
+    text-align: center; 
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    padding: 5px;  
+  }
+
+p{
+    background-color: white; 
+    color: black; 
+}
+ul{
+    background-color: white; 
+}
