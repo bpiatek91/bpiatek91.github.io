@@ -1,8 +1,29 @@
-h1{
+.header{
+    text-align: left; 
+    color: white; 
 }
 
-.header{
-    text-align: center; 
-    color: blue; 
-
+.background_color{
+    background: linear-gradient(0.25turn, black, grey,rgb(131, 128, 128));
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.contact_info{
+    color: white; 
+}
+.photo_link{
+    width: 80px; 
+    height: 80px; 
+    border: 0; 
 }
