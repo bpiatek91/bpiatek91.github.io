@@ -3,8 +3,11 @@
     color: white; 
 }
 
-.background_color{
-    background: linear-gradient(0.25turn, black, grey,rgb(131, 128, 128));
+.background{
+    background-image: url("background.jpg"); 
+    background-color: white; 
+    background-repeat: no-repeat; 
+
 }
 .navbar a {
     float: left;
@@ -26,4 +29,8 @@
     width: 80px; 
     height: 80px; 
     border: 0; 
+}
+
+h3{
+    color:white; 
 }
